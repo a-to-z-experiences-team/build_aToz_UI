@@ -89,3 +89,7 @@ header nav a {
     text-decoration: none;
     padding: 10px;
 }
+
+p {
+    color: white;
+}
