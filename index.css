@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
   margin: 0 auto;
 }
 body {
-    background-color: #dc3545;
+    background-color:#f8f9fa;
 }
 /* header */
 
@@ -85,7 +85,7 @@ nav {
 
 header nav a {
     margin-right: 50px;
-    color: white;
+    color: grey;
     text-decoration: none;
     padding: 10px;
 }
@@ -96,18 +96,72 @@ a:hover {
   }
 
 p {
-    color: white;
-}
-h1, h2, h4 {
     color: black;
 }
-
-.img {
-    display: flex;
-    justify-content: center;
+h1, h2, h4 {
+    color:#dc3545;
+    font-weight: bold;
+    font-family: serif;
 }
+
 
 .btn {
     display: flex;
     justify-content:  center;
+}
+.top-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-content h2 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 36px;
+    color: #17a2b8;
+}
+
+h4 {
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+
+span {
+    color: #17a2b8;
+}
+
+/* .d-block, .w-100 {
+    height: 32em;
+} */
+
+.content-pick {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    
+}
+
+
+.d-block, .w-100 {
+    height: 32em;
+}
+
+.content-earn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.features {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   justify-content: space-evenly;
+   padding: 20px;
+
 }
