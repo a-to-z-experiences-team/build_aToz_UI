@@ -253,3 +253,31 @@ span {
 footer {
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content-pick {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .top-content h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
