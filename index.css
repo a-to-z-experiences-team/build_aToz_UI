@@ -164,6 +164,7 @@ header {
   justify-content: space-between;
   font-size: 16px;
   background-color: #dc3545;
+  width: 100%;
 }
 
 nav {

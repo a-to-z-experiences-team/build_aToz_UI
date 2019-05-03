@@ -223,6 +223,10 @@ a:hover {
     }
 }
 
+.card img {
+    object-fit: cover;
+}
+
 /* Clear floats */
 .container::after,
 .row::after {
