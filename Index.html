@@ -49,15 +49,21 @@
     />
     <link href="./index.css" rel="stylesheet" />
 
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./tabs.js" async></script>
+
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
 
-  <body>
-    <div class="container home">
+  <body class="container">
       <header>
-            <img class="logo" src="./images/samlogo.png" alt="logo."style="width:4em; height:5em;">
+            <img class="logo" src="./images/logo.png" alt="logo."style="width:4em; height:5em;">
             <nav class="nav">
           <a class="nav-link active" href="./Index.html">Home</a>
           <a class="nav-link" href="./Team.html">Team</a>
@@ -130,42 +136,43 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <section class="content-earn">
-        <h2>Cool features</h2>
-      </section>
-      <section class="content-pick">
-        <div class="features">
+      <s="features">
           <h4>
-            Create a profile <span class="glyphicon glyphicon-user"></span>
-          </h4>
-          <p>
+ 
+       <h2 class="title">Features</h2>   
+      <div class="tabs">
+        <div data-tab="Create a profile" class="tab btn btn-secondary btn-danger">
+          Create a Profile
+        </div>
+        <div data-tab="Attend Experiences" class="tab btn btn-secondary">Attend Experiences</div>
+        <div data-tab="Create your own experience" class="tab btn btn-secondary">
+          Create Your Own Experience
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card" data-tab="Create a profile">
+          <div class="headline">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley...
-          </p>
+          </div>
         </div>
-        <div class="features">
-          <h4>
-            Attend Experiences <span class="glyphicon glyphicon-ok"></span>
-          </h4>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley..
-          </p>
-        </div>
-        <div class="features">
-          <h4>
-            Create your own experience
-            <span class="glyphicon glyphicon-plus"></span>
-          </h4>
-          <p>
+        <div class="card" data-tab="Attend Experiences">
+          <div class="headline">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley...
-          </p>
+          </div>
         </div>
-      </section>
+        <div class="card" data-tab="Create your own experience">
+          <div class="headline">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley...
+          </div>
+        </div>
+      </div>
     </div>
     <!-- container -->
 
