@@ -167,6 +167,10 @@ header {
   width: 100%;
 }
 
+.logo {
+    margin-left: 60px;
+}
+
 nav {
   display: flex;
 }
@@ -197,6 +201,12 @@ h4 {
 .btn {
   display: flex;
   justify-content: center;
+  margin-right: 10px;
+
+}
+
+.join-btn {
+    margin-bottom: 30px;
 }
 .top-content {
   display: flex;
@@ -206,6 +216,8 @@ h4 {
 
 .top-content h2 {
   font-size: 30px;
+  margin-top: 20px;
+  align-content: center;
 }
 
 h2 {
@@ -227,15 +239,21 @@ footer {
   text-align: center;
   margin-top: 50px;
 }
-.tabs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 40px;
-}
 
 .title {
-  text-align: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 100px;
 }
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+
+
 .card {
   display: none;
 }
@@ -243,6 +261,17 @@ footer {
   display: block;
 }
 
+.profile {
+    text-align: left;
+}
+
+.attend {
+    text-align: center;
+}
+
+.create {
+    text-align: right;
+}
 @media screen and (max-width: 500px) {
   header {
     display: flex;
