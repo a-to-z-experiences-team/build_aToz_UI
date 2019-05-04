@@ -179,7 +179,7 @@ header nav a {
 }
 
 a:hover {
-  color: #17a2b8;
+  color: white;
   /* color: white; */
 }
 
@@ -210,7 +210,7 @@ h4 {
 
 h2 {
   font-size: 36px;
-  color: #17a2b8;
+  color: black;
 }
 
 h4 {

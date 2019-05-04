@@ -46,3 +46,10 @@ const links = document.querySelectorAll(".tab");
 links.forEach(function(link){
   new TabLink(link)
 }); 
+
+
+const btn = document.querySelector(".btn"); 
+
+btn.addEventListener('click', function(){
+  document.location.href = 'https://ecstatic-boyd-937833.netlify.com/'
+});
